@@ -6,11 +6,11 @@ export default function Home() {
       <Head>
         <title>Bean Code | A Wonderful word of Web Development</title>
       </Head>
-      <main>
-        <footer>
-          <a href="https://bean-code.github.io">Powered By BeanCode</a>
-        </footer>
-      </main>
+      <main></main>
+
+      <footer>
+        <a href="https://bean-code.github.io">Powered By BeanCode</a>
+      </footer>
       <style jsx>{`
         .container {
           min-height: 100vh;
