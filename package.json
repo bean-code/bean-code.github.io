@@ -1,0 +1,45 @@
+{
+  "name": "bean-code.github.io",
+  "version": "1.0.0",
+  "description": "Welcome to a wonderful world of Web Development",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bean-code/bean-code.github.io.git"
+  },
+  "keywords": [
+    "web Development",
+    "SSR",
+    "SWR"
+  ],
+  "author": "Odhiambo Dormnic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bean-code/bean-code.github.io/issues"
+  },
+  "homepage": "https://github.com/bean-code/bean-code.github.io#readme",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "gray-matter": "^4.0.2",
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^4.3.7",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  }
+}
