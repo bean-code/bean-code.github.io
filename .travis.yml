@@ -1,4 +1,3 @@
-# bff6169c2a5ceb82bd633cfdafb585a782ab86ee
 language: node_js # Node.js based project
 node_js:
   - 12 # Level of Node.js to use
